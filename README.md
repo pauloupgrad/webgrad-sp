@@ -1,7 +1,8 @@
-# SINGLE PAGE WEBGRAD
+<h1 style="text-aling:center;">SINGLE PAGE WEBGRAD</h1>
 
 ## Detales
-Este projeto foi criado para fins de aprendisado de React Js
+Este projeto foi criado para fins de aprendizado de React Js
+
 
 ## Dependencias usadas
 
