@@ -1,7 +1,63 @@
+/* Reset */
 *{
     margin: 0; 
     padding: 0; 
-    box-sizing: border-box;
-    background-color: #000;
-    color:#fff;
+    box-sizing: border-box; 
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;  
+}
+
+/* Geral fora das medias */
+.nav{background-color:#FF8A51;}
+.nav a{text-decoration: none;text-align: center; padding: 10px 0; color: #f1f1f1;}
+.nav a:hover{background-color: #FF7430;}
+.endereco a:hover{opacity: 0.8;}
+
+/* Small Smartphones */
+@media screen and (max-width: 480px){
+    .header{display: flex; flex-direction: column;}
+    .nav{display: none; flex-direction: column; order:2;}
+        .nav a{width: 100%;}
+    .buttonMob{order:1; text-align: right; padding: 5px 5% 5px 0; cursor: pointer;}
+    .buttonMob:hover{opacity: 0.7;}
+    .logo{position: absolute; top:10px; left:5%;} 
+    .endereco{padding: 5% 0; order: 3; text-align: center;border-top:2px solid rgba(0, 0, 0, 0.1);border-bottom:2px solid rgba(0, 0, 0, 0.1);}    
+    .endereco a{margin:0 3%; } 
+
+}
+
+/* Medius Smartphones */
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .header{display: flex; flex-direction: column;}
+    .nav{display: none; flex-direction: column; order:2;}
+        .nav a{width: 100%;}
+    .buttonMob{order:1; text-align: right; padding: 5px 5% 5px 0; cursor: pointer;}
+    .buttonMob:hover{opacity: 0.7;}
+    .logo{position: absolute; top:10px; left:5%;} 
+    .endereco{padding: 2% 0; order: 3; text-align: center;border-top:2px solid rgba(0, 0, 0, 0.1);border-bottom:2px solid rgba(0, 0, 0, 0.1);}    
+    .endereco a{margin:0 3%; } 
+   
+}
+
+/* Larges Smartphones and Small notebooks*/
+@media screen and (min-width: 769px) and (max-width: 1199px){
+    .header{border-bottom:2px solid rgba(0, 0, 0, 0.1);height: 130px;}
+    .nav{display: flex;}
+        .nav a{width: 25%;} 
+    .buttonMob{display:none;}
+    .logo{float:left; width: 30%; padding: 15px 0 15px 9%;} 
+    .endereco{float: left; width: 70%; padding: 25px 5% 10px 35%}
+    .endereco a{margin-left: 10px;}             
+}
+
+/* Xlarges screens */
+@media screen and (min-width: 1200px){
+    .header{border-bottom:2px solid rgba(0, 0, 0, 0.1);height: 130px;}
+    .nav{display: flex;}
+        .nav a{width: 25%;} 
+    .buttonMob{display:none;} 
+    .logo{float:left; width: 30%; padding: 15px 0 15px 10%;} 
+    .endereco{float: left; width: 70%; padding: 25px 5% 10px 47%}
+    .endereco a{margin-left: 10px;} 
+    .image-gallery{width: 98%; margin:1%}            
 }

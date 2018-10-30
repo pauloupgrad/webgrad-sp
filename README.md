@@ -1,4 +1,4 @@
-<h1 style="text-aling:center;">SINGLE PAGE WEBGRAD</h1>
+# SINGLE PAGE WEBGRAD
 
 ## Detales
 Este projeto foi criado para fins de aprendizado de React Js
@@ -6,5 +6,7 @@ Este projeto foi criado para fins de aprendizado de React Js
 
 ## Dependencias usadas
 
-- Create React app
-- Styled components
+- create-react-app
+- styled-components
+- react-anchor-link-smooth-scroll
+- react-image-gallery
